@@ -108,6 +108,7 @@ public class ShowMessageDialogSample extends javax.swing.JFrame {
     private void plainButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_plainButtonActionPerformed
         // TODO add your handling code here:
         JOptionPane.showMessageDialog(this, "hello","",JOptionPane.PLAIN_MESSAGE);
+        JOptionPane.showMessageDialog(this, "hello","",JOptionPane.PLAIN_MESSAGE, icon);
     }//GEN-LAST:event_plainButtonActionPerformed
 
     private void questionButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_questionButtonActionPerformed
